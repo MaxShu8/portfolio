@@ -40,4 +40,6 @@ button_reg = driver.find_element(By.CSS_SELECTOR, '#root > div > div.grid > div 
                                                   'form__submit > span > button')
 button_reg.click()  # нажатие на кнопку "Зарегистрироваться"
 
+# driver.quit()
+
 
