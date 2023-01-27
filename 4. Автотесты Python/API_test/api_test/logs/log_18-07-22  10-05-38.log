@@ -1,0 +1,72 @@
+
+-----
+Test: tests/test_petshop.py::Test_create_update_delete_user::test_create_update_delete_user (call)
+Time: 2022-07-18 10:05:40.521724
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/user/
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"8"}
+Response headers: {'Date': 'Mon, 18 Jul 2022 07:05:41 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+
+-----
+
+-----
+Test: tests/test_petshop.py::Test_create_update_delete_user::test_create_update_delete_user (call)
+Time: 2022-07-18 10:05:41.112193
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/Neo
+
+Response code: 200
+Response text: {"id":8,"username":"Neo","firstName":"Ivan","lastName":"Ivanov","email":"fortesting@gmail.com","password":"1234","phone":"88001112233","userStatus":0}
+Response headers: {'Date': 'Mon, 18 Jul 2022 07:05:41 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+
+-----
+
+-----
+Test: tests/test_petshop.py::Test_create_update_delete_user::test_create_update_delete_user (call)
+Time: 2022-07-18 10:05:41.609359
+Request method: PUT
+Request URL: https://petstore.swagger.io/v2/user/Neo
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"8"}
+Response headers: {'Date': 'Mon, 18 Jul 2022 07:05:42 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+
+-----
+
+-----
+Test: tests/test_petshop.py::Test_create_update_delete_user::test_create_update_delete_user (call)
+Time: 2022-07-18 10:05:42.099041
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/Petya
+
+Response code: 200
+Response text: {"id":8,"username":"Petya","firstName":"Petr","lastName":"Petrov","email":"testingfor@gmail.com","password":"4321","phone":"88008008008","userStatus":0}
+Response headers: {'Date': 'Mon, 18 Jul 2022 07:05:42 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+
+-----
+
+-----
+Test: tests/test_petshop.py::Test_create_update_delete_user::test_create_update_delete_user (call)
+Time: 2022-07-18 10:05:42.608595
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/user/Petya
+
+Response code: 200
+Response text: {"code":200,"type":"unknown","message":"Petya"}
+Response headers: {'Date': 'Mon, 18 Jul 2022 07:05:43 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+
+-----
+
+-----
+Test: tests/test_petshop.py::Test_create_update_delete_user::test_create_update_delete_user (call)
+Time: 2022-07-18 10:05:43.116836
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/Petya
+
+Response code: 404
+Response text: {"code":1,"type":"error","message":"User not found"}
+Response headers: {'Date': 'Mon, 18 Jul 2022 07:05:43 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+
+-----
