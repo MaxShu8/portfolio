@@ -76,30 +76,3 @@ def find_entering_value(list_of_files):
 enter = input("Введите искомое значение: ")
 find_entering_value(files_in_folder())
 
-
-#
-# try:
-#     enter = int(enter)
-# except (ValueError, TypeError):
-#     enter = str(enter)
-#     print("Перевели в строку...")
-
-
-# print(f'\nПоиск значения: \033[1;33m"{enter}"\033[0;0m...\n')
-
-
-
-
-
-
-
-
-
-
-
-# cells = sheet["B2":"C2"]
-# for name, position in cells:
-#     print(name.value, position.value)
-
-# print(sheet[enter].value)
-
